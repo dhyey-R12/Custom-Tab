@@ -1232,3 +1232,42 @@ ul.contact_list_icon a img {
 }
 
 /*Vertical tab css end*/
+
+.readmore_mobile {
+    max-height: var(--height);
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    padding-top: 10px;
+    margin-top: -10px;
+}
+
+.readmore_section {
+    padding: 60px 0;
+}
+
+.readmore_listing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.readmore_listing li {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+
+@media (max-width: 1024px) {
+    .readmore_listing {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .readmore_listing {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -40,7 +40,7 @@
     --app-height: 100vh;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Futura LT';
     src: url('../fonts/FuturaLT-BoldOblique.eot');
     src: url('../fonts/FuturaLT-BoldOblique.eot?#iefix') format('embedded-opentype'),
@@ -103,7 +103,7 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 /* 1. Clean Base
 ------------------------------------------------------------------------------*/
